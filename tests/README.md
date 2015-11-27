@@ -1,14 +1,14 @@
 ## NWJS Boilerplate
 
-Small and Lightwight Boilerplate for NWJS Applications based on AngularJS nad Material Design through Angular Material.
+Small and lightwight Boilerplate for NWJS Applications based on AngularJS and Material Design through Angular Material.
 
-For more Iinformation regarding Angular Material and Angular refer to their excellent online documentation.
+For more Information regarding Angular Material and Angular refer to their excellent online documentation.
 
 ## Usage
 
 The gulpfile has tasks for rendering raw controllers and services into a dist folder.
 The default gulp just renders everything into the dist folder
-Also it has a liverelaod to test the srces in a browser.
+Also it has a liverelaod to test the sources in a browser.
 
 ## Commands
 
