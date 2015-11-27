@@ -1,0 +1,27 @@
+{
+  "name": "plannetview",
+  "version": "1.0.0",
+  "description": "A Viewing Tool for SynComNets Award Winning PlanNet",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Markus Flür@Syncomnet",
+  "license": "Fair",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "node-forge": "^0.6.38",
+    "q": "^1.4.1"
+  },
+  "window": {
+    "title": "Splitterfinder",
+    "icon": "res/pnv.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 200
+  }
+}
