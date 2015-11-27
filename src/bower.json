@@ -1,9 +1,9 @@
 {
-  "name": "plannetview",
-  "description": "A Viewing Tool for SynComNets Award Winning PlanNet",
+  "name": "nwjsboilerplate",
+  "description": "A lightweight boilerplate code for a angularbased nwjsapp with angular material",
   "main": "index.html",
   "authors": [
-    "Markus Flür@Syncomnet"
+    "Markus Flür"
   ],
   "license": "Fair",
   "moduleType": [

@@ -1,13 +1,13 @@
 {
-  "name": "plannetview",
+  "name": "nwjsboilerplate",
   "version": "1.0.0",
-  "description": "A Viewing Tool for SynComNets Award Winning PlanNet",
+  "description": "A lightweight boilerplate code for a angularbased nwjsapp with angular material",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Markus Flür@Syncomnet",
-  "license": "Fair",
+  "author": "Markus Flür",
+  "license": "MIT",
   "devDependencies": {
     "async": "^1.5.0",
     "bower": "^1.6.5",
