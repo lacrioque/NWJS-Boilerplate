@@ -91,7 +91,7 @@ gulp.task('services', function(done){
 });
 
 gulp.task('controller', function(done){
-    return gulp.src('./src/js/controller/*.js')
+    return gulp.src('./src/js/controllers/*.js')
     .pipe(concat('all_controller.js'))
     .pipe(gulp.dest('./src/js/'));
     
