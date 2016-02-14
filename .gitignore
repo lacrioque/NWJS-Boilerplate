@@ -1,6 +1,10 @@
 node_modules/
 src/node_modules
+src/APPINFO.js
 .vscode/
 dist/**/**
 build/**/**
 cache/**/**
+dist
+build
+cache

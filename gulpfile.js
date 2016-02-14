@@ -86,21 +86,21 @@ gulp.task('run',function(done){
 gulp.task('services', function(done){
     return gulp.src('./src/js/services/*.js')
     .pipe(concat('all_services.js'))
-    .pipe(gulp.dest('./src/js/'));
+    .pipe(gulp.dest('./dist/js/'));
     
 });
 
 gulp.task('controller', function(done){
     return gulp.src('./src/js/controllers/*.js')
     .pipe(concat('all_controller.js'))
-    .pipe(gulp.dest('./src/js/'));
+    .pipe(gulp.dest('./dist/js/'));
     
 });
 
 gulp.task('directives', function(done){
     return gulp.src('./src/js/directives/*.js')
     .pipe(concat('all_directives.js'))
-    .pipe(gulp.dest('./src/js/'));
+    .pipe(gulp.dest('./dist/js/'));
     
 });
 
