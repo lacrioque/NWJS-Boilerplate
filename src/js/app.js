@@ -1,12 +1,12 @@
-/*globals angular, console, window, q, _ */
-
-angular.module('plannetview', [
+"use strict";
+/*globals angular, console, window, require */
+angular.module('nwjsboilerplate', [
 	'ngMaterial', 
 	'ngRoute', 
 	'ngMessages', 
-	'ngDraggable', 
-	'plannetview.controller', 
-	'plannetview.services'
+	'nwjsboilerplate.controller', 
+	'nwjsboilerplate.services',
+	'nwjsboilerplate.directives'
 	])
 	.config(function($routeProvider, $locationProvider) {
 		$routeProvider
@@ -23,11 +23,6 @@ angular.module('plannetview', [
 			.when('/help', {
 				templateUrl: 'templates/help.tpl.html',
 				controller: 'helpCtrl'
-				}
-			)
-			.when('/impressum', {
-				templateUrl: 'templates/impressum.tpl.html',
-				controller: 'impressumCtrl'
 				}
 			)
 			.otherwise({

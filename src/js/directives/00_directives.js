@@ -1,5 +1,5 @@
 "use strict";
 /*globals angular, console, window, require */
 angular.module('nwjsboilerplate.directives', [
-	//INSERT servicemodules here
+	//INSERT manual directives here
 ]);

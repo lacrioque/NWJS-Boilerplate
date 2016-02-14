@@ -4,6 +4,8 @@ Small and lightwight Boilerplate for NWJS Applications based on AngularJS and Ma
 
 For more Information regarding Angular Material and Angular refer to their excellent online documentation.
 
+Material Design Icons are included
+
 ## Usage
 
 The gulpfile has tasks for rendering raw controllers and services into a dist folder.

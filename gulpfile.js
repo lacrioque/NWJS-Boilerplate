@@ -97,6 +97,13 @@ gulp.task('controller', function(done){
     
 });
 
+gulp.task('directives', function(done){
+    return gulp.src('./src/js/directives/*.js')
+    .pipe(concat('all_directives.js'))
+    .pipe(gulp.dest('./src/js/'));
+    
+});
+
 gulp.task('css', function(){
     return gulp.src('./src/css/**/**')
         .pipe(concat('app.css'))
@@ -116,6 +123,16 @@ gulp.task('collect-dist', function(done){
     async.parallel([
         function(end){
             gulp.src(['src/*'])
+                .pipe(gulp.dest('dist/'))
+                .on('end', end);
+            },
+        function(end){
+            gulp.src(['src/.bowerrc'])
+                .pipe(gulp.dest('dist/'))
+                .on('end', end);
+            },
+        function(end){
+            gulp.src(['src/package.json'])
                 .pipe(gulp.dest('dist/'))
                 .on('end', end);
             },
