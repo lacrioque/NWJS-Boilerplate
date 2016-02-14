@@ -3,7 +3,6 @@
 angular.module('nwjsboilerplate', [
 	'ngMaterial', 
 	'ngRoute', 
-	'ngMessages', 
 	'nwjsboilerplate.controller', 
 	'nwjsboilerplate.services',
 	'nwjsboilerplate.directives'
