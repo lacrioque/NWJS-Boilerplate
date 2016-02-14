@@ -69,7 +69,7 @@ if(linux || all){
 
 gulp.task('default', function(done){runSequence(['concat', 'versioning'], 'collect-dist', 'install-deps', done);});
 
-gulp.task('concat', ['services','controller', 'css']);
+gulp.task('concat', ['services','controller', 'directives', 'css']);
 
 gulp.task('build', function(done){runSequence('default', 'nw', done);});
 

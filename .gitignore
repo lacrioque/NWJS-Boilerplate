@@ -5,6 +5,7 @@ src/APPINFO.js
 dist/**/**
 build/**/**
 cache/**/**
+APPINFO.js
 dist
 build
 cache
