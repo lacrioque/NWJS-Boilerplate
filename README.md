@@ -33,7 +33,9 @@ Also it has a liverelaod to test the sources in a browser.
 ## Contribution
 
 Contributions are welcome
+
 The next thing to come are automated tests. 
+
 I'm still working on that and if someone wants to contribute he is very welcome.
 
 ## Licence
