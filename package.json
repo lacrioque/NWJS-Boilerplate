@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1" //Tests are in developement
   },
-  "author": "Markus Flür",
+  "author": "lacrioque <fluer.markus@googlemail.com>",
   "license": "MIT",
   "devDependencies": {
     "async": "^1.5.0",
