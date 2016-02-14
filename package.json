@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/lacrioque/NWJS-Boilerplate.git"
+    "type": "git",
+    "url": "https://github.com/lacrioque/NWJS-Boilerplate.git"
   },
-  "keywords" : [
+  "keywords": [
     "nwjs",
     "angular",
     "material-design",
@@ -18,8 +18,8 @@
   ],
   "author": "lacrioque <fluer.markus@googlemail.com>",
   "license": "MIT",
-  "bugs" : {
-    "url" : "https://github.com/lacrioque/NWJS-Boilerplate/issues"
+  "bugs": {
+    "url": "https://github.com/lacrioque/NWJS-Boilerplate/issues"
   },
   "devDependencies": {
     "async": "^1.5.0",
@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "lodash": "^3.10.1",
+    "nw-builder": "^2.2.0",
     "q": "^1.4.1"
   }
 }
