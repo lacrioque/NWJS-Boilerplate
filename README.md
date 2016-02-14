@@ -36,7 +36,7 @@ Contributions are welcome
 
 The next thing to come are automated tests. 
 
-I'm still working on that and if someone wants to contribute he is very welcome.
+I'm still working on that and if someone wants to contribute he/she is very welcome.
 
 ## Licence
 MIT - https://opensource.org/licenses/MIT
