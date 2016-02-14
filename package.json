@@ -6,8 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1" //Tests are in developement
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" //Tests are in Developement and following
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/lacrioque/NWJS-Boilerplate.git"
+  },
+  "keywords" : [
+    "nwjs",
+    "angular",
+    "material-design",
+    "boilerplate"
+  ],
   "author": "lacrioque <fluer.markus@googlemail.com>",
   "license": "MIT",
+  "bugs" : {
+    "url" : "https://github.com/lacrioque/NWJS-Boilerplate/issues"
+  },
   "devDependencies": {
     "async": "^1.5.0",
     "bower": "^1.6.5",
